@@ -1,0 +1,17 @@
+{
+/t"contenidoStr": "{\n  \"name\": \"clase4\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"type\":\"module\",\n  \"main\": \"ActvFileSync.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n",
+/t"contenidoObj": {
+/t/t"name": "clase4",
+/t/t"version": "1.0.0",
+/t/t"description": "",
+/t/t"type": "module",
+/t/t"main": "ActvFileSync.js",
+/t/t"scripts": {
+/t/t/t"test": "echo \"Error: no test specified\" && exit 1"
+/t/t},
+/t/t"keywords": [],
+/t/t"author": "",
+/t/t"license": "ISC"
+/t},
+/t"size": 246
+}
