@@ -4,5 +4,54 @@
 		"precio": 9800,
 		"cantidad": 20,
 		"id": 1
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 2
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 3
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 4
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 5
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 6
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 7
+	},
+	{
+		"nombre": "IPad",
+		"descripcion": "IPad 9na generacion de 256gb",
+		"precio": 9800,
+		"stock": 20,
+		"id": 8
 	}
 ]
