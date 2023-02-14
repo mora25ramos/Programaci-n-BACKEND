@@ -6,9 +6,9 @@ export default class ManagerUsuarios{
     consultarUsuarios = async() => {
         try {
             if (fs.existsSync(path)) {
-                const data = await fs.promises.readFile (path, 'utf-8')
-                console.log(data)
-                const users = JSON.parse (data)
+                const data = await fs.promises.readFile (path, 'utf-8');
+                console.log(data);
+                const users = JSON.parse(data);
                 return users;
             } else{
                 return [];
