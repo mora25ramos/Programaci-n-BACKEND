@@ -20,7 +20,7 @@ export default class ProductManager {
 
   async getById(id){
     try {
-      const id = await promises.readFile(this.ruta, 'utf-8');
+      const id =  await promises.readFile(this.ruta, 'utf-8');
       return JSON.parse(id);
     } catch (error) {
       console.log(error);

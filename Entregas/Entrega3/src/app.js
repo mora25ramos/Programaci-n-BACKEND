@@ -18,8 +18,8 @@ app.get('/products', async (req, res) => {
     res.send({products});
 })
 
-app.get('/products/product', async (req, res) => {
-  const id = await productManager.getById();
+app.get('/products', (req, res) => {
+  const id = req.query.id
   res.send({id});
 })
 
@@ -27,6 +27,18 @@ app.get('/products/product', async (req, res) => {
 app.get('/', async (req,res)=> {
     const products = await productManager.getAll();
     res.send({products});
+})
+
+app.delete('/api/products/:id', (req,res)=>{
+  const pid = Number(req.params.id)
+  const index = products.findIndex (p => p.id === pid)
+  
+  if (index!= -1){
+    products.splice(index, 1)
+    res.send({status:'success', message: 'Deleted successfully'})
+  } else {
+    res.status(404).send({status:'error', message:'There has been an error'})
+  }
 })
 
 app.listen(8080,()=>console.log("Listening on port 8080"))
