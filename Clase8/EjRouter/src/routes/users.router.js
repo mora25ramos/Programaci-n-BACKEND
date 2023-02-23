@@ -20,5 +20,4 @@ router.post ('/', (req, res)=>{
     res.send({status:'success'})
 })
 
-export default router
-
+export default router;

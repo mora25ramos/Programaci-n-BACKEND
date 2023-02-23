@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Cartuchera",
+        "price": 1400,
+        "id": 1
+    },
+    {
+        "title": "Calculadora",
+        "price": 2350,
+        "id": 2
+    },
+    {
+        "title": "Mapa",
+        "price": 345.67,
+        "id": 3
+    }
+]

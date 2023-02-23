@@ -19,4 +19,4 @@ router.post ('/', uploader.single('file'), (req, res)=>{
     res.send({status:'success'})
 })
 
-export default router
+export default router;
